@@ -1,0 +1,406 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #2c2e43;
+}
+body {
+  width:100%;
+  background-color: #171010;
+  font-family: poppins;
+  margin: 0;
+}
+
+nav {
+  width: 94%;
+  height: 60px;
+  background-color: #ffd523;
+  border-radius: 25px;
+  color: #2c2e43;
+  position: fixed;
+  margin-right: 3%;
+  margin-left: 3%;
+  z-index: 1;
+}
+nav .logo {
+  float: left;
+  margin-left: 20px;
+  line-height: 60px;
+  color: #2c2e43;
+  font-weight: 700;
+}
+nav .navbar {
+  float: right;
+}
+nav .navbar li {
+  float: left;
+  padding: 0 25px;
+  line-height: 30px;
+}
+.navbar a:hover {
+  cursor: pointer;
+  color: #f6f9f7;
+}
+.home {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  margin-top: 20px;
+}
+.home img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  border: 10px solid #ffd523;
+}
+.home .deskripsi {
+  float: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+.deskripsi h1 {
+  margin-bottom: 15px;
+}
+.deskripsi p {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.deskripsi span {
+  color: #ffd523;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 60px;
+  padding-top: 80px;
+  color: white;
+}
+
+.profil p {
+  text-align: justify;
+}
+.about-me .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.about {
+  width: 550px;
+  height: 250px;
+}
+
+.about h3 {
+  color: #ffd523;
+}
+.profil {
+  margin: 20px 20px;
+  width: 550px;
+  height: 540px;
+}
+.skill {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.skill-wrapper .row .image {
+  width: 80px;
+  height: auto;
+  margin-bottom: 45px;
+  margin-right: 45px;
+  margin-top: 7px;
+}
+.skill-wrapper .row .react {
+  width: 80px;
+  padding-bottom: 15px;
+}
+.experience {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.exp-detail {
+  display: flex;
+  justify-content: start;
+}
+
+.exp-detail .icon {
+  width: 5%;
+  height: 5%;
+}
+.exp-detail .desc {
+  margin-left: 20px;
+  line-height: 10%;
+}
+
+.portofolio .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 120px;
+  z-index: 0;
+}
+
+.portofolio .container .card {
+  width: 380px;
+  height: 450px;
+  margin: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card .porto-image {
+  background-color: #ffd523;
+  width: 100%;
+  height: 50%;
+  border-radius: 5% 5% 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.porto-image img {
+  width: 150px;
+  height: auto;
+}
+.porto-image .card1 {
+  width: 160px;
+  height: auto;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.card .porto-desc {
+  background-color: #ffd523;
+  width: 100%;
+  height: 50%;
+  border-radius: 0 0 5% 5%;
+  text-align: justify;
+  position: relative;
+}
+.porto-desc h4 {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+.porto-desc p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: small;
+}
+.porto-button {
+  position: absolute;
+  float: right;
+  bottom: 20px;
+  right: 20px;
+}
+
+.porto-button button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #171010;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.porto-button button:hover {
+  background-color: #ccc;
+  color: #171010;
+}
+
+.porto-button button:active {
+  background-color: #171010;
+  transform: translateY(2px);
+}
+
+.contact .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin: 10px 40px;
+  border-radius: 5%;
+}
+
+.contact .container .box {
+  width: 50%;
+  height: 550px;
+  margin: 20px 0;
+  background-color: #171010;
+  color: #ccc;
+}
+
+.contact-image img {
+  width: 90%;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 300;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 320px;
+  padding: 10px;
+  background-color: #ffd523;
+  color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #f6f9f7;
+}
+
+.toggle-button {
+  display: none;
+  cursor: pointer;
+  float: right;
+  padding: 10px;
+  font-size: 24px;
+}
+/* responsive */
+@media screen and (min-width: 320px) and (max-width: 730px){
+  /* navbar */
+  #nav-list {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 60px;
+    left: 58%;
+    background-color: #ffd523; 
+    width: 40%;
+    padding: 0;
+    margin-top: 10px;
+    list-style-type: none; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    border-radius: 18px;
+  }
+  #nav-list li {
+    padding: 10px;
+    text-align: center;
+  }
+  #nav-list.active {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  #nav-list li a {
+    color: #171010; 
+    text-decoration: none; 
+  }
+
+  .toggle-button {
+    display: block;
+    cursor: pointer;
+  }
+  /* home */
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+  }
+  /*about*/
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-left: 15%;
+  }
+  .about-me .container{
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .portofolio .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    padding-left: 20%;
+  }
+  .skill{
+    margin-top: 0px;
+  }
+  .about-me .container{
+    margin-top: 0px;
+  }
+  /*contact*/
+  .contact .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-image img{
+    width: 230%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+  }
+  .contact .container .box{
+    margin-top:0px;
+    margin-left: 50%;
+    padding-left: 40%;
+  }
+  .contact .container .contact-image{
+    margin-left: 50px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .contact .container .contact-form{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 90px;
+  }
+}

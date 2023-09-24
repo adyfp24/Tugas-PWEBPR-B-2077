@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Portofolio | Ady Firdaus</title>
+    <link rel="icon" type="image/png" href="img/clipboard.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="toggle-button" onclick="toggleNavbar()">☰</div>
+      <a class="logo" href="#">Ady Firdaus</a>
+      <div class="navbar">
+        <ul id="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="foto-diri">
+        <img src="img/foto.jpeg" alt="" />
+      </div>
+      <div class="deskripsi">
+        <h1>Hi, I am <span>Ady Firdaus</span></h1>
+        <p>Computer Science Student</p>
+        <p><i>~ long life learner ~</i></p>
+      </div>
+    </section>
+    <section class="about-me" id="about">
+      <div class="about profil">
+        <h3>about me</h3>
+        <p>
+          what's up guys, Namaku ady firdaus pratama dan aku sedang mengenyam pendidikan di universitas jember tepatnya di fakultas ilmu komputer dengan program studi teknologi informasi. Aku memiliki hobby berolahraga dan tentu saja
+          ngoding hehe. saat ini aku baru saja mulai perkuliahan semester 3 dan tak sabar untuk belajar hal baru seputar IT nantinya. Untuk saat ini, aku sedang menekuni pemrograman front-end dan back-end tetapi nantinya saya ingin belajar
+          dan terjun berkarir di bidang cyber security.
+        </p>
+      </div>
+      <div class="container">
+        <div class="about skill">
+          <h3>my skill</h3>
+          <div class="skill-wrapper">
+            <div class="row">
+              <img src="img/html.png" class="image html" alt="" />
+              <img src="img/css.png" class="image" alt="" />
+              <img src="img/javascript.png" class="image" alt="" />
+              <img src="img/html.png" style="margin-bottom: 30px" class="image react" alt="" />
+            </div>
+            <div class="row">
+              <img src="img/python.png" class="image" alt="" />
+              <img src="img/c.png" class="image" alt="" />
+              <img src="img/gitgit.png" class="image" alt="" />
+              <img src="img/figma.png" class="image" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="about experience">
+          <h3>experience</h3>
+          <div class="exp-detail">
+            <img src="img/clipboard.png" alt="" class="icon" />
+            <p class="desc">Staff PSDM HIMATIF UNEJ</p>
+          </div>
+          <div class="exp-detail">
+            <img src="img/clipboard.png" alt="" class="icon" />
+            <p class="desc">Ketua Angkatan Prodi TI FASILKOM UNEJ</p>
+          </div>
+          <div class="exp-detail">
+            <img src="img/clipboard.png" alt="" class="icon" />
+            <p class="desc">Staff Design project akhir PBO TI 22</p>
+          </div>
+          <div class="exp-detail">
+            <img src="img/clipboard.png" alt="" class="icon" />
+            <p class="desc">Front-end dan Back-end aplikasi Winform C#</p>
+          </div>
+          <div class="exp-detail">
+            <img src="img/clipboard.png" alt="" class="icon" />
+            <p class="desc">Winner CTF Laos Arena 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portofolio" id="portofolio">
+      <div class="container">
+        <div class="card">
+          <div class="box porto-image">
+            <img src="img/card_1.png" class="card1" alt="" />
+          </div>
+          <div class="box porto-desc">
+            <h4>Random Project</h4>
+            <p>Kumpulan beberapa random project seperti game tic tac toe, game batu gunting kertas, kalkulator, CRUD agro - industri, dan lain sebagainya.</p>
+            <div class="porto-button">
+              <a href="random_project.html"><button>selengkapnya</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box porto-image">
+            <img src="img/card_2.png" alt="" />
+          </div>
+          <div class="box porto-desc">
+            <h4>Web / App Development</h4>
+            <p>Kumpulan project berupa website maupun aplikasi dekstop yang saya kerjakan dengan menggunakan beberapa bahasa dan juga framework seperti javascript, PHP, C#, bootsrapp, dan sebagainya.</p>
+            <div class="porto-button">
+              <a href="web_app_development.html"><button>selengkapnya</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="box porto-image">
+            <img src="img/card_3.png" alt="" />
+          </div>
+          <div class="box porto-desc">
+            <h4>UI / UX Design</h4>
+            <p>Kumpulan desain interface atau prototype menggunakan software figma dalam membangun front-end aplikasi android, desktop, maupun sebuah website.</p>
+            <div class="porto-button">
+              <a href="uixux_design.html"><button>selengkapnya</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="box contact-image">
+          <img src="img/Mention-amico.png" alt="" />
+        </div>
+        <div class="box contact-form">
+          <form>
+            <h2>Let's collaborate with me!</h2>
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
